@@ -7,7 +7,10 @@
 		{
 			"Name": "ComplexSystemsUI",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"UMG"
+			]
 		}
 	]
 }
