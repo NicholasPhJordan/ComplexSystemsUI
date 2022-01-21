@@ -17,8 +17,4 @@ class COMPLEXSYSTEMSUI_API UCustomButton : public UButton
 
 		UCustomButton();
 
-#if WITH_EDITOR
-	virtual const FText GetPaletteCategory() override;
-#endif
-
 };
